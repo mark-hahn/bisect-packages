@@ -1,0 +1,15 @@
+'context-menu':
+  '.overlayer':
+      'Enable bisect-packages': 'bisect-packages:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'bisect-packages'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'bisect-packages:toggle' }
+      ]
+    ]
+  }
+]

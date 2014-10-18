@@ -1,0 +1,14 @@
+{
+  "name": "bisect-packages",
+  "main": "./lib/bisect-packages",
+  "version": "0.1.0",
+  "description": "Enable/disable packages to find source of an error by bisection",
+  "activationEvents": ["bisect-packages:toggle"],
+  "repository": "https://github.com/atom/bisect-packages",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.120.0"
+  },
+  "dependencies": {
+  }
+}
